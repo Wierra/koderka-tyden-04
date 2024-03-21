@@ -20,3 +20,33 @@ nav {
 /* -------------------------------------------- */
 
 
+.otoc{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header{
+	padding: 10px;
+	flex-basis: 100%;
+}
+
+footer{
+	padding: 10px;
+	flex-basis: 100%;
+}
+
+.sloupce{
+	display: flex;
+	flex-grow: 1;
+}
+
+nav,
+aside{
+	flex-basis: 20%;
+	padding: 10px;
+}
+
+article{
+	flex-basis: 60%;
+	padding: 10px;
+}

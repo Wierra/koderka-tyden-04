@@ -20,3 +20,39 @@ nav {
 /* -------------------------------------------- */
 
 
+
+.telo{
+	display: flex;
+}
+
+nav{
+	flex-basis: 20%;
+	flex-grow: 1;
+	padding: 10px;
+}
+
+header{
+	padding: 10px;
+}
+
+.otoc{
+	flex-basis: 80%;
+	flex-wrap: wrap;
+
+}
+
+footer{
+	flex-basis: 80%;
+	padding: 10px;
+}
+
+.sloupce{
+	display: flex;
+
+}
+article{
+	padding: 10px;
+	flex-shrink: 0;
+	flex-grow: 1;
+	flex-basis: 80%;
+}

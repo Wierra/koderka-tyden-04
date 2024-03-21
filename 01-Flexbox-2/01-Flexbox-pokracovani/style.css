@@ -21,4 +21,16 @@
 
 /* ---------------------------------------------------- */
 
+.kontejner{
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: column;*/
+}
 
+/*.druhy{
+    flex-grow: 1;
+}
+
+    /*flex-basis: 100px;      /*nastavuje šířku položky*/
+    /*flex-shrink: 1;          /*zmenšování položky ve směru hlavní osy*/  
+    /*flex-grow: 1;            /*zvětšování položky ve směru hlavní osy*/

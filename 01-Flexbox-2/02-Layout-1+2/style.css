@@ -1,4 +1,4 @@
-/* nejsme vcerejsi, pouzivame moderni box model */
+ /* nejsme vcerejsi, pouzivame moderni box model */
 *, :after, :before { box-sizing: border-box; }
 
 body {
@@ -16,4 +16,21 @@ body {
 
 /* ---------------------------------------------------- */
 
+.kontejner{
+  display: flex;
+}
 
+.levy,
+.pravy{
+  flex-basis: 50%;
+}
+
+.pravy{
+  display: flex;
+  flex-direction: column;
+}
+
+.horni,
+.dolni{
+  flex-basis: 50%;
+}

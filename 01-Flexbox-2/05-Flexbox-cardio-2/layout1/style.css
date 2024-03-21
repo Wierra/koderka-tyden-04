@@ -1,6 +1,10 @@
 /* nejsme vcerejsi, pouzivame moderni box model */
 *, :after, :before { box-sizing: border-box; }
 
+*{
+	padding: 0;
+	margin: 0;
+}
 /* barvicky elementů na stránce */
 header,
 footer {
@@ -19,4 +23,32 @@ nav {
 /* tady piš svoje CSS */
 /* -------------------------------------------- */
 
+header,
+article,
+aside,
+nav, 
+footer{
+	padding: 10px;
+	font-size: 30px;
 
+}
+
+.hlavicka{
+	display: flex;
+	flex-basis: 100%;
+	flex-wrap: wrap;
+}
+
+.main{
+	display: flex;
+}
+
+article{
+	flex-basis: 60%;
+}
+
+aside,
+nav{
+	flex-basis: 20%;
+
+}
